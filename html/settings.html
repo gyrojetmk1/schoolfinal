@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dark/main.css" id="maincolor">
+    <link rel="stylesheet" href="../css/dark/loader.css" id="loadercolor">
+    <link rel="stylesheet" href="../css/dark/switch.css" id="switchcolor">
+    <link rel="stylesheet" href="../css/scrollbar.css" id="scrollcolor">
+    <script src="../js/themeswapper.js"></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/settingsp.js" defer></script>
+    <title>Settings</title>
+</head>
+<body>
+    <div class="mainheader">
+
+        <button id="menubtn" class=""><img onclick="menu()" src="../images/menu.png"></button>
+        
+    <h3 id="header1">Settings</h3>
+    
+    </div>
+
+    <div class="bookmarks" id="bookmarks">
+
+    </div>
+
+    <div class="sidebar" id="sidebar">
+
+        
+
+        <div id="links">
+            <p>Main info</p>
+            <a href="landingpage.html">Landing page</a>
+            <a href="urbangarden.html">Urban Gardening</a>
+            <a href="astrophotography.html">Astro Photography</a>
+            <a href="biomimicry.html">BIomimicry</a>
+            <a href="vr.html">Virtual Reality</a>
+
+            <hr>
+            <p>Extra</p>
+            <a class="activel" href="settings.html">Settings</a>
+            <a href="credits.html">Credits</a>
+
+        </div>
+
+    </div>
+
+    <div class="loader" id="loader"></div>
+
+    <div class="content" id="content">
+        <header>Change settings here!</header>
+
+        <div class="switches">
+            <div class="inswitch">
+                <p>Light Theme</p>
+
+                <label class="switch">
+                    <input type="checkbox" id="lightswitch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            
+            <div class="inswitch">
+                <p>Bookmarking</p>
+
+                <label class="switch">
+                    <input type="checkbox" id="bookswitch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            
+
+            <div class="inswitch">
+                <p>Transparent Theme</p>
+
+                <label class="switch">
+                    <input type="checkbox" id="transswitch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+        </div>
+        
+
+    </div>
+</body>
+</html>

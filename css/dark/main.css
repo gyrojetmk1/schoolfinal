@@ -1,0 +1,261 @@
+
+@font-face { font-family: SourceSans3; src: url('../fonts/SourceSans3-VariableFont_wght.ttf'); }
+
+
+body {
+    margin: 0;
+    color: #ffffff;
+    background-color: #1a1625;
+    font-family: SourceSans3;
+    scrollbar-gutter: stable both-edges;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+
+
+
+.mainheader {
+    text-align: center;
+    background-color: #1e1b29;
+    position: sticky;
+    top: 0;
+    margin: 0% 0% 0% 0%;
+    padding: 1%;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 2px 0 2px 0;
+    border-color: #2f2b3a;
+    border-radius: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bookmarks {
+    transition: 0.2s;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    width: 20%;
+    display: flex;
+    background-color: #1e1b29;
+    border-style: solid;
+    border-width: 0px 2px 2px 2px;
+    border-color: #46424f;
+    border-radius: 0px 0px 8px 8px;
+    position: fixed;
+    overflow-y: hidden;
+    font-size: small;
+    height: 0px;
+    overflow-x: hidden;
+    opacity: 0;
+    right: 2.5%;
+    z-index: 2;
+}
+
+.bookmarks p {
+    margin: 0 auto auto auto;
+}
+
+
+.bookmarks a {
+    padding: 6% 20px !important;
+    background-color: #a688fa;
+    font-size: larger;
+    margin: 0px 3px 0px 3px;
+    border-radius: 5px;
+    border-width: 2px;
+    transition: 0.2s;
+    display: block;
+    color: black;
+    top: 0;
+    height: fit-content;
+    white-space: nowrap;
+    padding: 15px !important;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bookmarks a:hover {
+    background-color: #865aff;
+    color:#ffffff;
+    margin-top: 3%;
+}
+
+#markpage {
+    float: left;
+    padding: 10px;
+    background-color: #a688fa;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #2f2b3a;
+    transition: 0.2s;
+    display: none;
+}
+
+#markpage:hover {
+    cursor: pointer;
+    background-color: #865aff;
+    color: white;
+}
+
+
+#header1 {
+    padding: 0;
+    margin: 0;
+}
+
+#menubtn {
+    transition: 0.2s;
+    float: left;
+    margin: 0;
+    border-width: 0;
+    height: 0px;
+    width: 0px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+#menubtn img {
+    transition: 0.2s;
+    filter: brightness(0) invert(1);
+    border-radius: 5px;
+    border-color: transparent;
+    border-width: none;
+    width: 45px !important;
+    max-width: none;
+    min-width: none;
+}
+
+#menubtn img:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    filter: brightness(1) invert(0);
+    background-color: #ece3ff;
+    border-radius: 5px;
+    
+}
+
+.activem img {
+    filter: brightness(1) invert(0) !important;
+    background-color: #a688fa;
+}
+
+.activel {
+    background-color: #c3b3ff !important;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.sidebar {
+    transition: 0.2s;
+    margin: 0;
+    padding: 0;
+    width: 0px;
+    background-color: #1a1625;
+    position: fixed;
+    height: 100%;
+    border-style: solid;
+    border-width: 0 0 0 0;
+    border-color: #46424f;
+    z-index: 1;
+
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    height: 1%;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 6px;
+  }
+
+
+
+#links {
+    padding: 4%;
+    display: block;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+#links a {
+    padding: 20px 12px;
+    background-color: #a688fa;
+    font-size: larger;
+    margin: 5% auto 5% auto;
+    border-radius: 5px;
+    border-width: 2px;
+    transition: 0.2s;
+}
+
+#links a:hover {
+    padding: 20px 12px;
+    background-color: #865aff;
+    color:#ffffff;
+    font-size: larger;
+    margin: 5% auto 5% auto;
+    border-radius: 5px;
+}
+
+
+.content {
+    text-align: center;
+    background-color: #2f2b3a;
+    opacity: 0;
+    padding: 1%;
+    width: 80%;
+    margin: 1% auto 2% auto;
+    border-width: 2px 2px 2px 2px;
+    border-color: #46424f;
+    border-style: solid;
+    border-radius: 20px;
+    display: none;
+    transition: opacity 0.2s;
+}
+
+.content img {
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    background-color: #46424f;
+    padding: 1%;
+    width: 60%;
+    margin: 1% auto 1% auto;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: transparent;
+    padding: 1%;
+    width: fit-content;
+    max-width: 70%;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 14px;
+    border-color: #46424f;
+    border-style: solid;
+    min-width: 30%;
+    max-width: 60%;
+}
+
+ul {
+    margin: auto auto auto auto;
+    width: fit-content;
+
+}
+
+li {
+    margin: 15px auto 15px auto;
+    text-align: left;
+}
+
